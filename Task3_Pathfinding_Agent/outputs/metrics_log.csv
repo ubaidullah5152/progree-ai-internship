@@ -1,0 +1,16 @@
+scenario,algorithm,solved,steps,expanded_nodes,expanded_density_%,runtime_ms
+Open grid (10% obstacles),Dijkstra,True,58,815,100.0,3.024
+Open grid (10% obstacles),A* (Manhattan),True,58,702,86.1,3.139
+Open grid (10% obstacles),A* (Euclidean),True,58,787,96.6,3.258
+Medium (25% obstacles),Dijkstra,True,58,659,98.9,2.206
+Medium (25% obstacles),A* (Manhattan),True,58,268,40.2,1.179
+Medium (25% obstacles),A* (Euclidean),True,58,470,70.6,1.932
+Dense (35% obstacles),Dijkstra,True,58,538,89.1,1.879
+Dense (35% obstacles),A* (Manhattan),True,58,239,39.6,0.876
+Dense (35% obstacles),A* (Euclidean),True,58,383,63.4,1.549
+Wall with gap,Dijkstra,True,58,857,100.0,2.735
+Wall with gap,A* (Manhattan),True,58,661,77.1,1.896
+Wall with gap,A* (Euclidean),True,58,725,84.6,2.556
+Maze,Dijkstra,True,204,261,58.1,0.457
+Maze,A* (Manhattan),True,204,235,52.3,0.43
+Maze,A* (Euclidean),True,204,235,52.3,0.465
